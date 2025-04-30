@@ -2,11 +2,11 @@ import { StyleSheet } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 
-export default function ExploreScreen() {
+export default function ProfileScreen() {
   return (
     <ThemedView style={styles.container}>
-      <ThemedText type="title">탐색 화면</ThemedText>
-      <ThemedText>여기서 다양한 콘텐츠를 탐색할 수 있습니다.</ThemedText>
+      <ThemedText type="title">프로필 화면</ThemedText>
+      <ThemedText>여기서 사용자 프로필을 관리할 수 있습니다.</ThemedText>
     </ThemedView>
   );
 }
@@ -18,4 +18,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     padding: 20,
   },
-});
+}); 
